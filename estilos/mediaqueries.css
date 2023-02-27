@@ -6,6 +6,7 @@
     }
     section#login{
         width: 80vw;
+        height: 280px;
 
     }
     section#login > div#img{
@@ -15,7 +16,13 @@
     }
     section#login > div#formulario{
         float: right;
-        width: 70vw;
+        width: 48vw;
+    }
+    section#login > div#formulario > p{
+        font-size: 1em;
+    }
+    section#login > div#formulario > h1{
+        font-size: 1.6em;
     }
     
 }
@@ -26,16 +33,24 @@
     }
     section#login{
         width: 950px;
+        height: 350px;
         
     }
     section#login > div#img{
-        float: left;
+        float: right;
         width: 50vw;
         height: 100vh;
     }
     div#formulario{
-        float: right;
-        width: 50vw;
+        float: left;
+        width: 42vw;
+    }
+    section#login  div#formulario > P{
+        font-size: 1.2em;
+        margin: 20px 0px;
+    }
+    div#formulario  h1{
+        font-size: 2em;
     }
     
 }
